@@ -30,7 +30,7 @@ Once you have the binary for your architecture, you can run it from the command 
 by providing a configuration file (usually XML or JSON or YAML).
 
 ```bash
-./golang_check_webinject-linux-amd64 -c scenario.xml
+./golang_check_webinject-linux-amd64 -f scenario.xml
 ```
 
 ### Command Line Arguments
