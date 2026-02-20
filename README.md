@@ -37,7 +37,10 @@ by providing a configuration file (usually XML or JSON or YAML).
 
 | Argument | Description |
 | :--- | :--- |
-| `-c` | Path to the WebInject scenario file (required). |
+| `-f` | Path to the WebInject scenario file (required). |
+| `-w` | Warning threshold (optional). |
+| `-c` | Critical threshold (optional). |
+| `-t` | Global timeout (default 30s). |
 | `-k` | Support insecure HTTPS (optional). |
 
 ### Monitoring Integration (Nagios / Centreon)
