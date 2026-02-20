@@ -1,0 +1,15 @@
+<testcases>
+    <case>
+        <name>Check Homepage</name>
+        <url>https://example.com</url>
+        <method>GET</method>
+        <expected_status>200</expected_status>
+    </case>
+    <case>
+        <name>Check web page</name>
+        <url>https://www.iana.org/help/example-domains</url>
+        <method>GET</method>
+        <expected_status>200</expected_status>
+        <look_for>Example</look_for>
+    </case>
+</testcases>

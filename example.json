@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Check Homepage",
+    "url": "https://example.com",
+    "method": "GET",
+    "expected_status": 200,
+    "look_for": "Example"
+  },
+  {
+    "name": "Check web page",
+    "url": "https://www.iana.org/help/example-domains",
+    "method": "GET",
+    "expected_status": 200,
+    "look_for": "Example"
+  }
+]
