@@ -15,8 +15,6 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-      permissions:
-      contents: write
     strategy:
       matrix:
         include:
