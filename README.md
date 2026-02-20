@@ -31,7 +31,6 @@ by providing a configuration file (usually XML or JSON or YAML).
 
 ```bash
 ./golang_check_webinject-linux-amd64 -c scenario.xml
-
 ```
 
 ### Command Line Arguments
@@ -39,6 +38,7 @@ by providing a configuration file (usually XML or JSON or YAML).
 | Argument | Description |
 | :--- | :--- |
 | `-c` | Path to the WebInject scenario file (required). |
+| `-k` | Support insecure HTTPS (optional). |
 
 ### Monitoring Integration (Nagios / Centreon)
 
@@ -51,7 +51,6 @@ define command {
     command_name    check_webinject
     command_line    $USER1$/golang_check_webinject-linux-amd64 -c $ARG1$
 }
-
 ```
 
 **2. Define the Service**
@@ -63,7 +62,6 @@ define service {
     service_description     Web_Scenario_Check
     check_command           check_webinject!/etc/nagios/scenarios/login_test.xml
 }
-
 ```
 
 ### Exit Codes (Nagios Standards)
