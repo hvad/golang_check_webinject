@@ -52,7 +52,7 @@ To use this plugin within a monitoring environment, define a command in your con
 ```nagios
 define command {
     command_name    check_webinject
-    command_line    $USER1$/golang_check_webinject-linux-amd64 -c $ARG1$
+    command_line    $USER1$/golang_check_webinject-linux-amd64 -f $ARG1$
 }
 ```
 
